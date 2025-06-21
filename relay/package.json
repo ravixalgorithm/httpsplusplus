@@ -1,0 +1,13 @@
+{
+    "name": "httpsplusplus-relay",
+    "version": "0.1.0",
+    "description": "HTTPS++ relay node prototype",
+    "main": "src/relay.js",
+    "scripts": {
+        "start": "node src/relay.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
+}

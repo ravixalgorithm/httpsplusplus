@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "http://localhost:9000/relay-proxy?original=https%3A%2F%2Fhttpbin.org%2Fget"
+        }
+      },
+      "condition": {
+        "urlFilter": "https://httpbin.org/*",
+        "resourceTypes": ["main_frame"]
+      }
+    }
+  ]
