@@ -5,11 +5,11 @@
       "action": {
         "type": "redirect",
         "redirect": {
-          "url": "http://localhost:9000/relay-proxy?original=https%3A%2F%2Fhttpbin.org%2Fget"
+          "url": "http://localhost:9000/relay-proxy?original=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dchatgpt"
         }
       },
       "condition": {
-        "urlFilter": "https://httpbin.org/*",
+        "urlFilter": "https://*.google.*/*",
         "resourceTypes": ["main_frame"]
       }
     }
